@@ -1,0 +1,16 @@
+{
+  "name": "django-vite-example",
+  "version": "0.1.0",
+  "description": "An example project using django-vite.",
+  "author": "Sam Dudley <dudley.co.uk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.57.1",
+    "vite": "^4.0.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

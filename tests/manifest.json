@@ -1,0 +1,11 @@
+{
+  "main.js": {
+    "file": "assets/main.4889e940.js"
+  },
+  "main.css": {
+    "file": "assets/main.83069a53.css"
+  },
+  "foo/bar.js": {
+    "file": "assets/foo.869aea0d.js"
+  }
+}
