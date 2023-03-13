@@ -8,7 +8,7 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       // overwrite default .html entry
-      input: "main.js",
+      input: ["frontend/main.js", "frontend/styles.scss"],
     },
   },
 });

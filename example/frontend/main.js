@@ -1,5 +1,5 @@
 import "vite/modulepreload-polyfill";
 
-import "./styles.scss";
+// import "./styles.scss";
 
 console.log("Hello from django-vite!");
