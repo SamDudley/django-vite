@@ -16,6 +16,10 @@ INSTALLED_APPS = [
 2. Add the following to your settings file:
 
 ```python
+STATICFILES_DIRS = [
+    BASE_DIR / "frontend" / "dist",
+]
+
 # Vite
 # https://vitejs.dev/guide/backend-integration.html
 
@@ -41,8 +45,7 @@ VITE_MANIFEST_PATH = BASE_DIR / "frontend" / "dist" / "manifest.json"
   </head>
   <body>
     <h1>django-vite</h1>
-    {% vite_dev_client %}
-    {% vite_js "main.js" %}
+    {% vite_dev_client %} {% vite_js "main.js" %}
   </body>
 </html>
 ```
